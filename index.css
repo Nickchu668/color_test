@@ -1,0 +1,11 @@
+/* Base styles for Visual Assessment System */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.hud-corner { position: absolute; width: 20px; height: 20px; border-color: #2563eb; opacity: 0.7; z-index: 5; }
+.hud-tl { top: -2px; left: -2px; border-top: 4px solid; border-left: 4px solid; }
+.hud-tr { top: -2px; right: -2px; border-top: 4px solid; border-right: 4px solid; }
+.hud-bl { bottom: -2px; left: -2px; border-bottom: 4px solid; border-left: 4px solid; }
+.hud-br { bottom: -2px; right: -2px; border-bottom: 4px solid; border-right: 4px solid; }
+
+.report-sheet { background: #ffffff; background-image: radial-gradient(#cbd5e1 1.2px, transparent 1.2px); background-size: 24px 24px; }
